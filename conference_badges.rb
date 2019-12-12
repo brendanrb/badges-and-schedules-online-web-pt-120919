@@ -29,7 +29,7 @@ def assign_rooms(attendees)
 
   new_array =[]
   
-  attendees.maps! do |a, index|
+  attendees.map do |a, index|
     new_array << "Hello, #{a}! You'll be assigned to room #{index}!"
 end
 return new_array
