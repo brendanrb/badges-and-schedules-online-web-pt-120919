@@ -20,6 +20,6 @@ return new_array
 end
 
 def printer(attendees)
-  puts batch_badge_creator(attendees).maps!
+  puts batch_badge_creator(attendees).map!
 end
 
