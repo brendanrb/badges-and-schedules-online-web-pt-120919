@@ -19,8 +19,10 @@ end
 return new_array
 end
 
-def printer(attendees)
- puts attendees.each
+def printer(attendees) 
+  puts batch_badge_creator(attendees)
+  new_array = []
+  attendees.each {|a| new_array << "Hello, my name is #{a}."}
 
 end
 
