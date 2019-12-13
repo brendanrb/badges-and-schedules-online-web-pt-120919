@@ -20,6 +20,6 @@ return new_array
 end
 
 def printer
-  puts batch_badge_creator[0]
+  puts batch_badge_creator
 end
 
