@@ -19,3 +19,9 @@ end
 return new_array
 end
 
+def printer
+  print batch_badge_creator(attendees)
+  print assign_rooms(attendees
+)
+end
+
