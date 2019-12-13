@@ -19,7 +19,7 @@ end
 return new_array
 end
 
-def printer(attendees)
-  puts batch_badge_creator[1]
+def printer
+  puts batch_badge_creator[0]
 end
 
