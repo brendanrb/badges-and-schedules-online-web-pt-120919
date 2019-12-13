@@ -20,6 +20,5 @@ return new_array
 end
 
 def printer(attendees)
-  puts batch_badge_creator.each(attendees)
 end
 
