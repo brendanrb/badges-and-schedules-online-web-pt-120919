@@ -20,7 +20,6 @@ return new_array
 end
 
 def printer(attendees)
-  puts batch_badge_creator(attendees)
-  puts assign_rooms(attendees)
+  puts batch_badge_creator[0]
 end
 
